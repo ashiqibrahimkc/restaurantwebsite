@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h3 class="navhead">Grill House</h3>
+            <div class="nav-links" id="navlinks">
+                <i class="material-icons" onclick="hidemenu()">close</i>
+                <ul>
+                    <li><a href="html.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="item.html">ITEMS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="material-icons" onclick="showmenu()">menu</i>
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+            <p>A cow, a pig, and a chicken walk into a grill. End of story.</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+
+
+ 
+
+    <!-- ---------------------------facilitie--------------------------------- -->
+
+    <section class="facilitie">
+        <h1>Our facilities</h1>
+        <p>A big complex and we assure a good parking area and dinnings.</p>
+
+        <div class="row">
+            <div class="facilitie-col">
+                <img src="dining.jpg">
+                <h3>Dinning ambience</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus magnam numquam? Hic, deleniti minima.</p>
+            </div>
+            <div class="facilitie-col">
+                <img src="kichen.jpg">
+                <h3>Neat & beauty Kitchen</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum hic unde iusto dolores officiis.</p>
+            </div>
+            <div class="facilitie-col">
+                <img src="parking.jpg">
+                <h3>Lot of Parking</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione amet culpa laboriosam, commodi pariatur.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------testinmoninals--------------------------------------->
+
+
+    <section class="testimonials">
+        <h1>What our customer says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="firoos.jfif">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem omnis, nobis esse quibusdam sit cum provident recusandae. Veritatis ratione minus eligendi omnis dignissimos inventore nisi, ipsum voluptate recusandae doloremque!</p>
+                    <h3>Firoos chuttipara</h3>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="messi.jfif">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem omnis, nobis esse quibusdam sit cum provident recusandae. Veritatis ratione minus eligendi omnis dignissimos inventore nisi, ipsum voluptate recusandae doloremque!</p>
+                    <h3>Lional messi</h3>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">grade</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------------contact us---------------------------------------->
+
+
+    <section class="call">
+        <h1>Enroll For Our Various Food Anywhere<br> From The Malappuram</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+    <!-- -----------------------footer---------------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat sit odit praesentium ab mollitia saepe <br> eum cum nesciunt culpa, reiciendis suscipit et vero porro.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Easy contact</p>
+    </section>
+
+
+
+
+
+
+
+
+
+  <!-------------------------------------------------------------course--------------------------------------------------------------->
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+            navlinks.style.visibility = "visible";
+        }
+        function hidemenu(){
+            navlinks.style.visibility = "hidden";
+
+        }
+    </script>
+     <!-- <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+            
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+
+        }
+    </script> -->
+</body>
+</html>

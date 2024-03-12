@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h3 class="navhead">Grill House</h3>
+            <div class="nav-links" id="navlinks">
+                <i class="material-icons" onclick="hidemenu()">close</i>
+                <ul>
+                    <li><a href="html.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="item.html">ITEMS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="material-icons" onclick="showmenu()">menu</i>
+        </nav>
+        <div class="text-box">
+            <h1>Food Items</h1>
+            <p>A cow, a pig, and a chicken walk into a grill. End of story.</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+
+
+  <!--------------------------------------------------------------items--------------------------------------------------------------->
+
+    <section class="items">
+        <h1>Food items</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero adipisci soluta deleniti sit nisi, excepturi id facere explicabo, exercitationem quidem aperiam porro laborum quasi saepe, animi tenetur tempore corporis amet. Numquam consectetur tempora, sint nisi reiciendis autem ipsa! Voluptas.</p>
+    
+        <div class="row">
+           <div class="items-col">
+            <h3>cold & hot</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nisi! Voluptatem deserunt consequuntur sint illum commodi ratione et atque amet esse delectus perspiciatis repudiandae nihil quia dolor harum aperiam, asperiores beatae voluptatum ad tempora deleniti laboriosam fuga vitae. Laborum veniam nemo doloremque repudiandae voluptatem perspiciatis a sapiente pariatur porro nostrum!</p>
+           </div> 
+           <div class="items-col">
+            <h3>veg items</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit culpa possimus saepe accusamus dolorum! Maxime corrupti, sit eius deserunt accusamus eos voluptates cum dignissimos quis iusto voluptate! Totam facilis id, dolore pariatur laudantium alias sequi consectetur vitae odio deserunt necessitatibus maiores tenetur minus similique molestias sunt aut unde eos sapiente.</p>
+           </div>
+           <div class="items-col">
+            <h3>non veg items</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel totam adipisci eum at optio impedit esse itaque, assumenda, rem harum, doloremque animi. Odio velit cum ipsa vitae in labore, eos autem voluptates nam, unde amet possimus voluptate, ad ab nulla saepe. Expedita molestiae sapiente dignissimos, sed et obcaecati eligendi harum.</p>
+           </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------sp food---------------------------------------------------------------->
+
+    <section class="sp-food">
+        <h1>special food items</h1>
+        <p>the grill house restaurant have a lot of food but, the special is charcole shawrama and normal alfham and kebabs.</p>
+        <div class="row">
+            <div class="sp-col">
+                <img src="shawarma.jpg" >
+                <div class="layer">
+                    <h3>Charcole shawrarma</h3>
+                </div>
+            </div>
+            <div class="sp-col">
+                <img src="alfham.jpg">
+                <div class="layer">
+                    <h3>Alfham</h3>
+                </div>    
+            </div>
+            <div class="sp-col">
+                <img src="kebab.jpg">
+                <div class="layer">
+                    <h3>Kebabs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- ---------------contact us---------------------------------------->
+
+
+    <section class="call">
+        <h1>Enroll For Our Various Food Anywhere<br> From The Malappuram</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+    <!-- -----------------------footer---------------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat sit odit praesentium ab mollitia saepe <br> eum cum nesciunt culpa, reiciendis suscipit et vero porro.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Easy contact</p>
+    </section>
+
+
+
+
+
+
+
+
+
+  <!-------------------------------------------------------------course--------------------------------------------------------------->
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+            navlinks.style.visibility = "visible";
+        }
+        function hidemenu(){
+            navlinks.style.visibility = "hidden";
+
+        }
+    </script>
+     <!-- <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+            
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+
+        }
+    </script> -->
+</body>
+</html>
